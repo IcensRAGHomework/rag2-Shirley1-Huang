@@ -23,7 +23,7 @@ def hw02_2(q2_pdf):
     
     full_contents = ""
     for content in docs:
-        full_contents =full_contents + content.page_content + "\n"
+        full_contents += content.page_content + "\n"
 
 
     text_splitter = RecursiveCharacterTextSplitter (
